@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The J-Curve · Video Production Options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#faf9f6;
+    --ink:#1c1b19;
+    --ink-soft:#57534e;
+    --line:#d6d3cd;
+    --accent:#7c6f5a;      /* somber bronze */
+    --card:#f1efe9;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    font-weight:300;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:880px;margin:0 auto;padding:0 32px}
+  header{padding:96px 0 64px;border-bottom:1px solid var(--line)}
+  .kicker{
+    font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--accent);font-weight:500;margin-bottom:20px;
+  }
+  h1{
+    font-family:'Fraunces',serif;font-weight:400;
+    font-size:clamp(38px,6vw,58px);line-height:1.08;letter-spacing:-.01em;
+  }
+  .lede{max-width:520px;color:var(--ink-soft);font-size:17px;margin-top:24px}
+  section{padding:72px 0;border-bottom:1px solid var(--line)}
+  .sec-head{display:flex;align-items:baseline;gap:18px;margin-bottom:40px}
+  .sec-num{font-family:'Fraunces',serif;font-size:15px;color:var(--accent)}
+  h2{font-family:'Fraunces',serif;font-weight:400;font-size:30px;letter-spacing:-.01em}
+  .team{margin-bottom:56px}
+  .team:last-child{margin-bottom:0}
+  .team-tag{
+    display:inline-block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--bg);background:var(--accent);padding:5px 12px;margin-bottom:14px;font-weight:500;
+  }
+  .team h3{font-family:'Fraunces',serif;font-weight:500;font-size:24px;margin-bottom:6px}
+  .team .role{color:var(--ink-soft);font-size:14px;margin-bottom:28px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:26px}
+  .vid{
+    position:relative;background:var(--card);border:1px solid var(--line);
+    aspect-ratio:16/10;overflow:hidden;
+  }
+  .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .vid.drive a{
+    display:flex;height:100%;align-items:center;justify-content:center;
+    text-decoration:none;color:var(--accent);font-size:13px;letter-spacing:.06em;
+    border:1px dashed var(--line);transition:border-color .2s,color .2s;
+  }
+  .vid.drive a:hover{border-color:var(--accent);color:var(--ink)}
+  .prices{width:100%;border-collapse:collapse;font-size:15px}
+  .prices th{
+    text-align:left;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ink-soft);font-weight:500;padding:0 16px 10px 0;border-bottom:1px solid var(--ink);
+  }
+  .prices td{padding:12px 16px 12px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  .prices td:first-child{color:var(--ink-soft)}
+  .prices .usd{font-family:'Fraunces',serif;font-size:19px;white-space:nowrap}
+  .note{font-size:13px;color:var(--ink-soft);margin-top:14px}
+  footer{padding:64px 0 96px;color:var(--ink-soft);font-size:13px}
+  footer .fin{font-family:'Fraunces',serif;font-size:22px;color:var(--ink);margin-bottom:8px}
+  @media(max-width:600px){
+    header{padding:64px 0 48px}
+    section{padding:56px 0}
+    .wrap{padding:0 22px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">The J-Curve · Internal Proposal</div>
+    <h1>Video Production<br>&amp; Editing Teams.</h1>
+    <p class="lede">Three options for recording and editing the next season — with examples and pricing per two-episode block, for comparison.</p>
+  </div>
+</header>
+
+<main>
+<!-- ============ 01 RECORDING TEAMS ============ -->
+<section id="recording">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><h2>Recording Teams</h2></div>
+
+    <div class="team">
+      <span class="team-tag">Option A</span>
+      <h3>Kadu — Zayon Films</h3>
+      <div class="role">Recording production · reel examples in Drive folder</div>
+      <div class="grid">
+        <div class="vid drive">
+          <a href="https://drive.google.com/drive/folders/1f-Vsxnzm4yPgRPFvIihs4vbCBVDFV-oO?usp=sharing" target="_blank" rel="noopener">View example reels →<br><small style="opacity:.55">Google Drive folder</small></a>
+        </div>
+      </div>
+      <table class="prices">
+        <tr><th>Item</th><th>BRL</th><th>USD</th></tr>
+        <tr><td>Video recording (per day)</td><td>R$ 6.000</td><td></td></tr>
+        <tr><td>2 episodes (2 days)</td><td>R$ 12.000</td><td class="usd">$ 2.350</td></tr>
+      </table>
+    </div>
+
+    <div class="team">
+      <span class="team-tag">Option B</span>
+      <h3>Bark</h3>
+      <div class="role">Recording production</div>
+      <div class="grid">
+        <div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/qNRoMcSJ1rU?start=35" title="Rei da Cutelaria" loading="lazy" allowfullscreen></iframe></div>
+        <div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/nGzQgiuwcqE" title="48 Horas no Rio" loading="lazy" allowfullscreen></iframe></div>
+        <div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/KYiECZ-yKt4" title="Rolê ou Rolé — Argentina" loading="lazy" allowfullscreen></iframe></div>
+      </div>
+      <table class="prices">
+        <tr><th>Item</th><th>BRL</th><th>USD</th></tr>
+        <tr><td>Video recording (per day)</td><td>R$ 8.000</td><td></td></tr>
+        <tr><td>2 episodes (2 days)</td><td>R$ 16.000</td><td class="usd">$ 3.100</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 EDITING ============ -->
+<section id="editing">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Editing</h2></div>
+
+    <div class="team">
+      <span class="team-tag">Brazil</span>
+      <h3>Editing with recording team</h3>
+      <div class="role">Per-episode editing by the same team that records</div>
+      <table class="prices">
+        <tr><th>Team</th><th>Per episode</th><th>2 episodes</th><th>USD</th></tr>
+        <tr><td>Kadu — Zayon Films</td><td>R$ 3.000</td><td>R$ 6.000</td><td class="usd">$ 1.180</td></tr>
+        <tr><td>Bark</td><td>R$ 3.750</td><td>R$ 7.500</td><td class="usd">$ 1.520</td></tr>
+      </table>
+    </div>
+
+    <div class="team">
+      <span class="team-tag">US · Recommended</span>
+      <h3>Michael Francis — Directed by Francis</h3>
+      <div class="role">Editing, color, pacing, audio mix &amp; master · liked the podcast and offered a discount</div>
+      <div class="grid">
+        <div class="vid">
+          <iframe src="https://www.instagram.com/reel/DYz6O6OFdn_/embed" title="Michael Francis reel" loading="lazy" scrolling="no" allowfullscreen></iframe>
+        </div>
+        <div class="vid drive">
+          <a href="https://directedbyfrancis.com" target="_blank" rel="noopener">Portfolio &amp; more examples →<br><small style="opacity:.55">directedbyfrancis.com</small></a>
+        </div>
+      </div>
+      <table class="prices">
+        <tr><th>Item</th><th>USD</th></tr>
+        <tr><td>Episode 1 — editing, color, pacing, audio mix &amp; master</td><td class="usd">$ 1.200</td></tr>
+        <tr><td>Two episodes total (discounted)</td><td class="usd">$ 2.400</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 SUMMARY ============ -->
+<section id="summary">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">03</span><h2>Season Summary — 2 Episodes</h2></div>
+    <table class="prices">
+      <tr><th>Combination</th><th>Recording</th><th>Editing</th><th>Total USD</th></tr>
+      <tr><td>A · Kadu record + Kadu edit</td><td>$ 2.350</td><td>$ 1.180</td><td class="usd">$ 3.530</td></tr>
+      <tr><td>B · Bark record + Bark edit</td><td>$ 3.100</td><td>$ 1.520</td><td class="usd">$ 4.620</td></tr>
+      <tr><td>C · Kadu or Bark record + Francis edit (US)</td><td>$ 2.350 – 3.100</td><td>$ 2.400</td><td class="usd">$ 4.750 – 5.500</td></tr>
+    </table>
+    <p class="note">All prices per two-episode block. US editing includes color, pacing, audio mix &amp; master.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fin">The J-Curve</div>
+    Prepared for internal review · Video production options
+  </div>
+</footer>
+
+</body>
+</html>
